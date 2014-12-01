@@ -1,0 +1,6 @@
+/* Mi primera pagina web programada*/
+
+/* TEAM */
+ Creator: Gabriela Requena
+ Twitter: @GabuRequena
+ From: Guayaquil, ECUADOR
