@@ -394,7 +394,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic",Century Gothic;
   font-weight: 500;
   line-height: 1.1;
 }
@@ -432,7 +432,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 34px;
 }
 h3,
 .h3 {
@@ -456,7 +456,7 @@ h1 small,
 }
 h2 small,
 .h2 small {
-  font-size: 18px;
+  font-size: 22px;
 }
 h3 small,
 .h3 small,
