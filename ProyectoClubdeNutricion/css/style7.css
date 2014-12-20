@@ -65,6 +65,13 @@
 	background-image: url(../img/avena.png);
 }
 
+.ch-img-4 { 
+	background-image: url(../img/corriendo.jpg);
+}
+.ch-img-5 { 
+	background-image: url(../img/malamemoria.jpg);
+}
+
 .ch-info h3 {
 	color: #fff;
 	text-transform: uppercase;
