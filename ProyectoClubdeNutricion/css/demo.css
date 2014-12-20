@@ -15,6 +15,25 @@ a{
 	color: #555;
 	text-decoration: none;
 }
+#apDiv1 {
+	position: absolute;
+	width: 338px;
+	height: 115px;
+	z-index: 1001;
+	left: 117px;
+	top: 168px;
+}
+
+#circulo {
+	position: absolute;
+	width: 801px;
+	height: 512px;
+	z-index: 1001;
+	left: 550px;
+	top: -800px;
+	opacity: 1;
+	
+}
 .container{
 	width: 100%;
 	position: relative;
