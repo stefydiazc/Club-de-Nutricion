@@ -208,7 +208,7 @@ textarea {
   background-image: none;
 }
 a {
-  color: #428bca;
+  color: #fe9a2e;
   text-decoration: none;
 }
 a:hover,
@@ -4121,7 +4121,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: #fe9a2e;
   background-color: #ffffff;
 }
 .nav-pills > li > a > .badge {
