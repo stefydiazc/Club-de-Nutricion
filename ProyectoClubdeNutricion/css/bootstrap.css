@@ -208,7 +208,7 @@ textarea {
   background-image: none;
 }
 a {
-  color: #428bca;
+  color: #ffa420;
   text-decoration: none;
 }
 a:hover,
@@ -1888,8 +1888,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #ffa420;
+  border-color: #ffa420;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -2072,7 +2072,7 @@ fieldset[disabled] .btn-info.active {
   border-color: #46b8da;
 }
 .btn-link {
-  color: #428bca;
+  color: #ffa420;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;

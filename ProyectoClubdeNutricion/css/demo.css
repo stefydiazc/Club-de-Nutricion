@@ -3,16 +3,16 @@
 /* General Demo Style */
 body{
 	font-family: Century Gothic;
-	background: #f9f9f9 url(../images/bg.jpg);
+	background: #f9f9f9 url(../img/fondoperfil.jpg);
 	font-weight: 300;
 	font-size: 15px;
-	color: #333;
+	color: #ffa420;
 	-webkit-font-smoothing: antialiased;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
 a{
-	color: #555;
+	color: #ffa420;
 	text-decoration: none;
 }
 #apDiv1 {
