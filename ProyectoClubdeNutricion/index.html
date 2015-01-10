@@ -63,10 +63,21 @@
 	  <ul class="nav navbar-nav navbar-right text-center">
 	    <li><a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Inicio</a></li>
         <li><a href="#about"><i class="service-icon fa fa-info"></i>&nbsp;Con&oacute;cenos</a></li>
-        <li><a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Nuestras Recetas</a></li>
+         <li><a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Hazlo Hoy</a></li>
+        <li><a href="#"><i class="service-icon fa fa-laptop"></i>&nbsp;Nuestras Recetas</a></li>
         <li><a href="login.html"><i class="service-icon fa fa-male"></i>&nbsp;Login</a></li>
         <li><a href="#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Cont&aacute;ctanos</a></li>
+     
+                             <form class="navbar-form navbar-right" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Buscar">
+                                </div>
+                                    <button type="submit" class="btn btn-default">Buscar</button>
+                          </form>
+                           
     </ul>
+      <!-- Botton Buscar--> 
+                             <!-- Botton Buscar --> 
   </div><!-- /.navbar-collapse -->
   </div>
 </nav>
@@ -185,6 +196,54 @@
 <!---///////////////////////////////////////////////////////////////////////////////////--->
 
 
+				<!-- contact form ends -->		
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Contact -->
+     <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+		<div class="col-md-8 col-md-offset-4 text-center">
+            <h2>Cont&aacute;ctanos</h2>
+          </div>
+          <div class="col-md-9 col-md-offset-4">
+		  <!-- contact form starts -->
+            <form action="contact" id="contact-form" class="form-horizontal">
+			<fieldset>
+						    <div class="form-group">
+						      <label class="col-sm-2 control-label" for="name">Nombre</label>
+						      <div class="col-sm-9">
+						        <input type="text"  placeholder="Escriba su nombre" class="form-control" name="name" id="name">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-2 control-label" for="email">Correo Electr&oacute;nico </label>
+						      <div class="col-sm-9">
+						        <input type="text" placeholder="Escriba su correo electr&oacute;nico" class="form-control" name="email" id="email">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-2 control-label" for="subject">Asunto</label>
+						      <div class="col-sm-9">
+						        <input type="text" placeholder="Escriba su asunto" class="form-control" name="subject" id="subject">
+						      </div>
+					 	    </div>
+						    <div class="form-group">
+						      <label class="col-sm-2 control-label" for="message">Mensaje</label>
+						      <div class="col-sm-9">
+						        <textarea placeholder="Por favor escriba su mensaje" class="form-control" name="message" id="message" rows="3"></textarea>
+						      </div>
+						    </div>
+	              <div class="col-sm-offset-4 col-sm-8">
+			            <button type="submit" class="btn btn-success">Aceptar</button>
+	    			      <button type="reset" class="btn btn-primary">Cancelar</button>
+	        			</div>
+						</fieldset>
+						</form>
+				
 				<!-- contact form ends -->		
           </div>
         </div>
