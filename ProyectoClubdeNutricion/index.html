@@ -40,7 +40,11 @@
        <br>
       <s><a  href="#about" class="btn btn-top">Reg&iacute;strate</a></s>
       
+<<<<<<< HEAD
       <s><a href="registrate.html" class="btn btn-top"> Inicia Sesi&oacute;n</a></s>
+=======
+      <a href="login.html" class="btn btn-top"> Inicia Sesi&oacute;n</a>
+>>>>>>> origin/master
       </div>
     </div>
     <!-- /Header Area -->
@@ -63,12 +67,28 @@
 	  <ul class="nav navbar-nav navbar-right text-center">
 	    <li><a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Inicio</a></li>
         <li><a href="#about"><i class="service-icon fa fa-info"></i>&nbsp;Con&oacute;cenos</a></li>
+<<<<<<< HEAD
         <li><a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Tips</a></li>
 		<li><a href="#portfolio"><i class="service-icon fa fa-laptop"></i>&nbsp;Nuestras Recetas</a></li>
 		
         <li><a href="registrate.html"><i class="service-icon fa fa-male"></i>&nbsp;Login</a></li>
+=======
+         <li><a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Hazlo Hoy</a></li>
+        <li><a href="#"><i class="service-icon fa fa-laptop"></i>&nbsp;Nuestras Recetas</a></li>
+        <li><a href="login.html"><i class="service-icon fa fa-male"></i>&nbsp;Login</a></li>
+>>>>>>> origin/master
         <li><a href="#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Cont&aacute;ctanos</a></li>
+     
+                             <form class="navbar-form navbar-right" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Buscar">
+                                </div>
+                                    <button type="submit" class="btn btn-default">Buscar</button>
+                          </form>
+                           
     </ul>
+      <!-- Botton Buscar--> 
+                             <!-- Botton Buscar --> 
   </div><!-- /.navbar-collapse -->
   </div>
 </nav>
@@ -79,15 +99,19 @@
 
 <!---//////////////////////////////////////////////////////////////////////////////////--->
     <!-- Conocenos -->
-    <div id="about" class="about_us">
-      <div class="container">
-      <img src="img/conocenos.jpg" alt="Bienvenidos a Come y disfruta" width="1350" height="800" class="img">
-        
-         <div class="col-md-8 col-md-offset-2 text-center">
-                   
-         <div id="circulo">
+
+
+<div id="about" class="about_us">
+	<div class="container-fluid">
+		<div class="row"> 
+         <img src="img/conocenos.jpg" alt="Bienvenidos a Come y disfruta" width="1350" height="800" class="img">
+              
+           <div class="col-md-6 col-md-offset-3 text-center">    
+                           
+         <div id="circulo" class="" >
+
           
-            <div id="apDiv1">
+            <div id="" class="col-md-6 col-md-offset-3 text-center" >
             <h1>Bienvenidos</h1>
            <p>Come y disfruta nace con la necesidad de ofrecer una nueva alternativa de alimentación para todas las personas que necesitan o desean llevar una dieta equilibrada.           </p> 
             </div>  
@@ -114,6 +138,8 @@
       </div>
     </div>
     </div>
+</div>
+        
     <!-- /About -->
 
 <!---//////////////////////////////////////////////////////////////////////////////////--->
@@ -122,7 +148,7 @@
 <!---//////////////////////////////////////////////////////////////////////////////////--->
   <!-- Mensaje Diario -->
     <div id="services" class="services">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
             <h2>HAZLO AHORA</h2>
@@ -172,17 +198,6 @@
                 <div class="ch-info-back">
                   <h3>A CORRER SE HA DICHO</h3>
                   <p> Correr con alguien m&aacute;s mejora los resultados y los hace m&aacute;s consistentes..</p>
-                </div>
-              </div>
-            </div>
-          </li>
-        <li>
-            <div class="ch-item">
-              <div class="ch-info">
-                <div class="ch-info-front ch-img-5"></div>
-                <div class="ch-info-back">
-                  <h3>SE TE OLVIDA TODO</h3>
-                  <p> Consume. nueces, quinoa, bayas, manzanas verdes, cebolla morada.</p>
                 </div>
               </div>
             </div>
@@ -272,9 +287,57 @@
 				<!-- contact form ends -->		
 
     <!-- /Contact -->
+     <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+		<div class="col-md-8 col-md-offset-4 text-center">
+            <h2>Cont&aacute;ctanos</h2>
+          </div>
+          <div class="col-md-9 col-md-offset-4">
+		  <!-- contact form starts -->
+            <form action="contact" id="contact-form" class="form-horizontal">
+			<fieldset>
+						    <div class="form-group">
+						      <label class="col-sm-2 control-label" for="name">Nombre</label>
+						      <div class="col-sm-9">
+						        <input type="text"  placeholder="Escriba su nombre" class="form-control" name="name" id="name">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-2 control-label" for="email">Correo Electr&oacute;nico </label>
+						      <div class="col-sm-9">
+						        <input type="text" placeholder="Escriba su correo electr&oacute;nico" class="form-control" name="email" id="email">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-2 control-label" for="subject">Asunto</label>
+						      <div class="col-sm-9">
+						        <input type="text" placeholder="Escriba su asunto" class="form-control" name="subject" id="subject">
+						      </div>
+					 	    </div>
+						    <div class="form-group">
+						      <label class="col-sm-2 control-label" for="message">Mensaje</label>
+						      <div class="col-sm-9">
+						        <textarea placeholder="Por favor escriba su mensaje" class="form-control" name="message" id="message" rows="3"></textarea>
+						      </div>
+						    </div>
+	              <div class="col-sm-offset-4 col-sm-8">
+			            <button type="submit" class="btn btn-success">Aceptar</button>
+	    			      <button type="reset" class="btn btn-primary">Cancelar</button>
+	        			</div>
+						</fieldset>
+						</form>
+				
+				<!-- contact form ends -->		
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Contact -->
     <!-- Footer -->
     <footer>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
            <h2>ESPOL-EDCOM</h2>
@@ -302,7 +365,7 @@ $.vegas('slideshow', {
   backgrounds:[
      { src:'./img/chicacorriendo.jpg', fade:2000 },
 	 { src:'./img/alimentacion.jpeg', fade:2000 },
-    { src:'./img/frutas.jpg', fade:2000 },
+    { src:'./img/frutas1.jpg', fade:2000 },
 	 { src:'./img/vegetales.jpg', fade:2000 },
    //{ src:'./img/portrait2.jpg', fade:2000 },
    // { src:'./img/portrait3.jpg', fade:2000 },

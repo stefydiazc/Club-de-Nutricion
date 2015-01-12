@@ -1,3 +1,22 @@
+.container{
+    text-align:center;
+	text-align:left;
+	text-align:right;
+	  
+}
+.left{
+    float: left;
+    background:white
+}
+.right{
+    float: right;
+    background:white
+}
+.center{
+     float: center;
+    background:white
+
+}
 .ch-item {
 	width: 120%;
 	height: 120%;

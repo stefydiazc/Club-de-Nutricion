@@ -208,7 +208,7 @@ textarea {
   background-image: none;
 }
 a {
-  color: #428bca;
+  color: #ffa420;
   text-decoration: none;
 }
 a:hover,
@@ -643,10 +643,10 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  margin-right: 0;
-  margin-left: 0;
-  padding-left: 0px;
-  padding-right: 0px;
+  margin-right: 0%;
+  margin-left: 0%;
+  padding-left: 0%px;
+  padding-right: 0%px;
 }
 .container:before,
 .container:after {
@@ -748,10 +748,11 @@ pre code {
 .col-lg-10,
 .col-lg-11,
 .col-lg-12 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: "Century Gothic";
 }
 .col-xs-1,
 .col-xs-2,
@@ -1887,8 +1888,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #ffa420;
+  border-color: #ffa420;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -2071,7 +2072,7 @@ fieldset[disabled] .btn-info.active {
   border-color: #46b8da;
 }
 .btn-link {
-  color: #428bca;
+  color: #ffa420;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
