@@ -1,22 +1,18 @@
 @import url('normalize.css');
 
 /* General Demo Style */
-
-
-
-
 body{
 	font-family: Century Gothic;
-	background: #f9f9f9 url(..fondoperfil/img/.jpg);
+	background: #f9f9f9 url(../images/bg.jpg);
 	font-weight: 300;
 	font-size: 15px;
-	color: #ffa420;
+	color: #333;
 	-webkit-font-smoothing: antialiased;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
 a{
-	color: #ffa420;
+	color: #FFA420;
 	text-decoration: none;
 }
 #apDiv1 {

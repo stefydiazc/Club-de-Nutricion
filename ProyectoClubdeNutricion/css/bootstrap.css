@@ -41,14 +41,14 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin: 0,2%;
 }
 a:focus {
   outline: thin dotted;
 }
 a:active,
 a:hover {
-  outline: 0;
+  outline: 0%;
 }
 h1 {
   font-size: 2em;
@@ -103,7 +103,7 @@ sub {
   bottom: -0.25em;
 }
 img {
-  border: 0;
+  border: 0%;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -187,7 +187,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Century Gothic;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -208,7 +208,7 @@ textarea {
   background-image: none;
 }
 a {
-  color: #ffa420;
+  color: #428bca;
   text-decoration: none;
 }
 a:hover,
@@ -1888,8 +1888,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #ffa420;
-  border-color: #ffa420;
+  background-color: #FFA420;
+  border-color: #FFA420;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -1897,8 +1897,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #3276b1;
-  border-color: #285e8e;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -2072,7 +2072,7 @@ fieldset[disabled] .btn-info.active {
   border-color: #46b8da;
 }
 .btn-link {
-  color: #ffa420;
+  color: #428bca;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -4175,7 +4175,7 @@ a.list-group-item.active > .badge,
 }
 .thumbnail > img {
   display: block;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 a.thumbnail:hover,

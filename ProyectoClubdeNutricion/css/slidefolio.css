@@ -6,7 +6,7 @@ body {
   width: 100%;
 }
 .push50{
-margin-top:50px;
+margin-top:0%;
 }
 .filter {
 cursor:pointer;
@@ -184,7 +184,7 @@ border-color:#cccccc;
 /* about us */
 
 .about_us {
-  padding: 50px 0;
+  padding: 0% ;
   background:none repeat scroll 0 0 #F1F1F1;
   border-bottom:1px solid #D1D1D1 !important;
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
@@ -198,7 +198,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
 
 .services {
    background: none repeat scroll 0 0 #4D4D4D;
-  padding: 50px 0;
+  padding: 0%;
   color: #eeeeee;
   width: 100%;
   border-bottom:1px solid #D1D1D1 !important;
@@ -210,7 +210,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
 }
 
 .service-item {
-  margin-bottom: 15px;
+  margin-bottom: 5%;
   background:#333333;
   padding:10px;
   border:1px solid #D1D1D1 !important;
