@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title> Mi Perfil</title>
+    <title> Información Nutricional</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Add custom CSS here -->
@@ -40,7 +40,7 @@
 	  <ul class="nav navbar-nav navbar-right text-center">
 	    <li><a href="index.html"><i class="service-icon fa fa-home"></i>&nbsp;Inicio</a></li>
         <li><a href="index.html#about"><i class="service-icon fa fa-info"></i>&nbsp;Con&oacute;cenos</a></li>
-        <li><a href="index.html#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Tips</a></li>
+        <li><a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Tips</a></li>
         <li><a href="recetas.html"><i class="service-icon fa fa-laptop"></i>&nbsp;Nuestras Recetas</a></li>
         <li><a href="login.html"><i class="service-icon fa fa-male"></i>&nbsp;Login</a></li>
         <li><a href="index.html#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Cont&aacute;ctanos</a></li>
@@ -62,7 +62,7 @@
  <div class="container-fluid">
  <div class="col-lg-3 col-lg-3">
                     <ul class="nav nav-pills nav-stacked text-left">
-                        <li class="active">
+                        <li class="">
                             <a href="perfil.html">
                                 <span class="service-icon fa fa-user"></span>
                                 Informaci&oacute;n Personal
@@ -76,7 +76,7 @@
                         </li>
                         <li class="">
                             <a href="gustos.html">
-                                <span class="service-icon fa fa-apple"></span>
+                                <span class="service-icon fa  fa-apple"></span>
                                 Gustos
                             </a>
                         </li>
@@ -101,8 +101,8 @@
 
 <div class="border-box  text-center">
 <div class="col-lg-6">
-            <span class="service-icon fa fa-user"></span>
-     			Informaci&oacute;n Personal          		   
+            <span class="service-icon fa fa-book"></span>
+     			Informaci&oacute;n Nutricional          		   
  	</div>
  </div> 	
             <br>
@@ -112,9 +112,23 @@
             <form action="contact" id="contact-form" class="form-horizontal">
   			<div class="form-group">
 				<div class="col-lg-12 col-lg-14">
-					<label class="col-lg-3 control-label" for="name">Nombres (*):</label>
-						<div class="col-lg-9">
-						  <input type="text"  placeholder="Nombre" class="form-control" name="name" id="name">
+					<label class="col-lg-3 control-label" for="name">Sexo (*):</label>
+						<div class="col-lg-4">
+                        <label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> <span class="service-icon fa fa-male"></span>
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">  <span class="service-icon fa fa-female"></span></label>
+						</div>
+				 </div>
+            </div>
+			</form>
+            <form action="contact" id="contact-form" class="form-horizontal">
+  			<div class="form-group">
+				<div class="col-lg-12 col-lg-14">
+					<label class="col-lg-3 control-label" for="name">Peso (*):</label>
+						<div class="col-lg-4">
+						  <input type="text"  placeholder="Peso" class="form-control" name="name" id="name">
 						</div>
 				 </div>
             </div>
@@ -122,9 +136,9 @@
            <form action="contact" id="contact-form" class="form-horizontal">
   			<div class="form-group">
 				<div class="col-lg-12 col-lg-14">
-					<label class="col-lg-3 control-label" for="name">Apellidos (*):</label>
-						<div class="col-lg-9">
-						  <input type="text"  placeholder="Apellidos" class="form-control" name="lastname" id="lastname">
+					<label class="col-lg-3 control-label" for="name">Estatura (*):</label>
+						<div class="col-lg-4">
+						  <input type="text"  placeholder="Estatura" class="form-control" name="lastname" id="lastname">
 						</div>
 				 </div>
             </div>
@@ -132,8 +146,8 @@
             <form action="contact" id="contact-form" class="form-horizontal">
   			<div class="form-group">
 				<div class="col-lg-4 col-lg-12">
-					<label class="col-lg-3 control-label" for="name">Ubicaci&oacute;n (*):</label>
-						<div class="col-lg-9">
+					<label class="col-lg-3 control-label" for="name">Edad (*):</label>
+						<div class="col-lg-4">
 						  <input type="text"  placeholder="Ubicaci&oacute;n" class="form-control" name="name" id="name">
 						</div>
 				 </div>
@@ -142,9 +156,9 @@
             <form action="contact" id="contact-form" class="form-horizontal">
   			<div class="form-group">
 				<div class="col-lg-4 col-lg-12">
-					<label class="col-lg-3 control-label" for="name">Tel&eacute;fono  (*):</label>
-						<div class="col-lg-9">
-						  <input type="text"  placeholder="Tel&eacute;fono Convencional " class="form-control" name="name" id="name">
+					<label class="col-lg-3 control-label" for="name">Actividad  (*):</label>
+						<div class="col-lg-4">
+						  <input type="text"  placeholder="Actividad F&iacute;sica " class="form-control" name="name" id="name">
 						</div>
 				 </div>
             </div>
@@ -152,24 +166,14 @@
             <form action="contact" id="contact-form" class="form-horizontal">
   			<div class="form-group">
 				<div class="col-lg-12 col-lg-14">
-					<label class="col-lg-3 control-label" for="name"> Celular (*):</label>
-						<div class="col-lg-9">
-						  <input type="text"  placeholder=" Celular " class="form-control" name="name" id="name">
+					<label class="col-lg-3 control-label" for="name"> Enfermedades(*):</label>
+						<div class="col-lg-4">
+						  <input type="text"  placeholder="Enfermedades" class="form-control" name="name" id="name">
 						</div>
 				 </div>
             </div>
 			</form>
-           </form>
-            <form action="contact" id="contact-form" class="form-horizontal">
-  			<div class="form-group">
-				<div class="col-lg-12 col-lg-14">
-					<label class="col-lg-3 control-label" for="name"> Educaci&oacute;n (*):</label>
-						<div class="col-lg-9">
-						  <input type="text"  placeholder=" Nivel de Educaci&oacute;n  " class="form-control" name="name" id="name">
-						</div>
-				 </div>
-            </div>
-			</form> 
+            
 </div>
 </div>    
 <!---///////////////////////////////////////////////////////////////////////////////////--->        
